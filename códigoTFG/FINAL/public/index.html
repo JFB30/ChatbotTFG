@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="#">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="/css/inicio.css">
+  <title>Subir Cuestionario</title>
+</head>
+
+<body>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="DialogflowMessenger"
+  agent-id="a517d1cd-c523-428e-87a4-d181ba3872b0"
+  language-code="es"
+></df-messenger>
+   <div class="pagina">
+     <div class="login-container">
+       <div class="register">
+         <h2>Subir cuestionario</h2>
+           <input type="file" id="archivo"  value="Selecciona el archivo" accept=".txt">
+           <input type="button" id="subir"  value="Subir el archivo">
+           <input type="button" id="crearChatbot" class="crearChatbot" name="crear" value="Crear el chatbot">
+           <input type="button" id="borrarPreguntas" class="borrarPreguntas" name="borrar" value="Borrar todas las preguntas de la base de datos">
+           <p id="info"></p>
+          
+       </div>
+       
+     </div>
+   </div>
+   <script type="module" src="/recibirArchivos.js"> </script>
+</body>
+</html>
