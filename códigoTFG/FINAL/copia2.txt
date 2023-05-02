@@ -1,0 +1,18 @@
+Cuestionario 3
+Pregunta 1
+Enunciado: ¿Qué hace el aprendizaje no supervisado?
+{
+~Controlar lo que funciona mal.
+~No hace nada.
+~Controlar que todo funciona bien.
+=Aprende a hacer agrupamientos, o sea, a formar grupos (clustering).
+}
+
+Pregunta 2
+Enunciado: ¿Para qué se utilizan las máquinas que aprenden solas?
+{
+~Para reconocer imagenes de perros y gatos solamente.
+~Para reconocer imagenes de coches solamente.
+=Para aprender a reconocer objetos como perros, gatos, elefantes... a través de fotos.
+~Para sacar la basura al contenedor.
+}
