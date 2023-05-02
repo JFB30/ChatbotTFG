@@ -1,0 +1,44 @@
+Cuestionario 1
+Pregunta 1
+Enunciado: ¿La inteligencia artifical puede crear dibujos de animales?
+{
+=Sí, la inteligencia artificial puede crear dibujos de todo tipo
+~No, solo puede crear dibujos de perros
+~No, la IA no puede crear dibujos
+~Sí, pero solo de gatos
+}
+
+Pregunta 2
+Enunciado: ¿Cómo se les llama a las máquinas que aprenden solas?
+{
+~Máquinas lógicas
+~Máquinas muy listas
+~Máquinas con superpoderes 
+=Sistemas de aprendizaje automático (machine learning)
+}
+
+Pregunta 3
+Enunciado: A las máquinas que aprenden solas se les llama Sistemas de aprendizaje automático (machine learning).
+{
+=V
+~F
+}
+
+Cuestionario 2
+Pregunta 1
+Enunciado: ¿Cuales son los tipos de aprendizaje automático que hay?
+{
+~Refuerzo
+~Automático
+=El supervisado, el no supervisado y por refuerzo
+~Manual
+}
+
+Pregunta 2
+Enunciado: Una paradoja es algo que contradice a la lógica, a lo que todo el mundo piensa que es lo _____.
+{
+~distinto
+=normal
+~mismo
+~anormal
+}
